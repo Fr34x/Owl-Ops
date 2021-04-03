@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/giacomo/RiderProjects/Owl-Ops-Webserver/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {}
+    "/home/giacomo/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {}
   },
   "projects": {
-    "/home/giacomo/RiderProjects/Owl-Ops-Webserver/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {
+    "/home/giacomo/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/giacomo/RiderProjects/Owl-Ops-Webserver/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
+        "projectUniqueName": "/home/giacomo/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
         "projectName": "Owl-Ops-Webserver",
-        "projectPath": "/home/giacomo/RiderProjects/Owl-Ops-Webserver/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
+        "projectPath": "/home/giacomo/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
         "packagesPath": "/home/giacomo/.nuget/packages/",
-        "outputPath": "/home/giacomo/RiderProjects/Owl-Ops-Webserver/Owl-Ops-Webserver/obj/",
+        "outputPath": "/home/giacomo/RiderProjects/Owl-Ops/Owl-Ops-Webserver/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/giacomo/.nuget/NuGet/NuGet.Config"
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.104/RuntimeIdentifierGraph.json"
         }
       }
     }

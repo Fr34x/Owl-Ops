@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "86ccNgLefJBzv360kN7NCob0xFZawFTT6h08LhBn9VtGgZ/TBPYr12GWueyHhO3WIjeAIvffjaGS+HqTehZqxQ==",
+  "dgSpecHash": "dsCIdu++/nlyzMmNQXGTdD84lwWEqL8t3gk2mOJnxi0nouWr4dd0NQS5FtfmSMGR3qHWVvA6J7rlEn9Olq1nSA==",
   "success": true,
-  "projectFilePath": "/home/giacomo/RiderProjects/Owl-Ops-Webserver/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
+  "projectFilePath": "/home/giacomo/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
