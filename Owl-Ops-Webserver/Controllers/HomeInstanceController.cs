@@ -16,11 +16,7 @@ namespace Owl_Ops_Webserver.Controllers
             Console.WriteLine($"Received temperature {data.Temperature}°  with timestamp {data.Timestamp}.");
             return NoContent();
         }
-
-        /// <summary>
-        /// Reagiert auf POST /api/raspberry/heartbeat und setzt den letzten empfangenen Hearbeat
-        /// im Service.
-        /// </summary>
+        
         [HttpPost("heartbeat")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
