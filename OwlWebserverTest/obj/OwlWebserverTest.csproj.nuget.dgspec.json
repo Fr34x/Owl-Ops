@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/OwlWebserverTest.csproj": {}
+  },
+  "projects": {
+    "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
+        "projectName": "Owl-Ops-Webserver",
+        "projectPath": "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj",
+        "packagesPath": "/home/giaco/.nuget/packages/",
+        "outputPath": "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/giaco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/OwlWebserverTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/OwlWebserverTest.csproj",
+        "projectName": "OwlWebserverTest",
+        "projectPath": "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/OwlWebserverTest.csproj",
+        "packagesPath": "/home/giaco/.nuget/packages/",
+        "outputPath": "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/giaco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {
+                "projectPath": "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
