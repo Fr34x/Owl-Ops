@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/giaco/.dotnet/store/|arch|/|tfm|",
-      "/home/giaco/.nuget/packages"
+      "C:\\Users\\vongo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vongo\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
