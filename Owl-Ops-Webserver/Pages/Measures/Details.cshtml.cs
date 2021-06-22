@@ -20,9 +20,9 @@ namespace Owl_Ops_Webserver.Pages.Measures
 
         public Measurement Measurement { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }

@@ -22,7 +22,7 @@ namespace Owl_Ops_Webserver.Model
         public virtual DbSet<Image> Images { get; set; }
         public virtual DbSet<Measurement> Measurements { get; set; }
         public virtual DbSet<Sensor> Sensors { get; set; }
-        public virtual DbSet<User> Users { get; set; }
+        //public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

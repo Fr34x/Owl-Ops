@@ -12,8 +12,8 @@ namespace Owl_Ops_Webserver.Model
     public partial class Measurement
     {
         [Key]
-        [Column(TypeName = "varchar(32)")]
-        public string ID { get; set; }
+        [Column(TypeName = "integer")]
+        public int ID { get; set; }
         [Required]
         [Column(TypeName = "varchar(32)")]
         public string Sensor_ID { get; set; }
@@ -24,7 +24,7 @@ namespace Owl_Ops_Webserver.Model
         public double Value { get; set; }
         [Required]
         [Column(TypeName = "datetime")]
-        public byte[] Time { get; set; }
+        public DateTime Time { get; set; }
 
         [ForeignKey(nameof(Sensor_ID))]
         [InverseProperty("Measurements")]

@@ -22,9 +22,9 @@ namespace Owl_Ops_Webserver.Pages.Measures
         [BindProperty]
         public Measurement Measurement { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
@@ -70,7 +70,7 @@ namespace Owl_Ops_Webserver.Pages.Measures
             return RedirectToPage("./Index");
         }
 
-        private bool MeasurementExists(string id)
+        private bool MeasurementExists(int id)
         {
             return _context.Measurements.Any(e => e.ID == id);
         }
