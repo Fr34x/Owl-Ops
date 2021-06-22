@@ -9220,38 +9220,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vongo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/giaco/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4AHIF\\pre\\Owl Ops Ding\\OwlWebserverTest\\OwlWebserverTest.csproj",
+      "projectUniqueName": "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/OwlWebserverTest.csproj",
       "projectName": "OwlWebserverTest",
-      "projectPath": "D:\\4AHIF\\pre\\Owl Ops Ding\\OwlWebserverTest\\OwlWebserverTest.csproj",
-      "packagesPath": "C:\\Users\\vongo\\.nuget\\packages\\",
-      "outputPath": "D:\\4AHIF\\pre\\Owl Ops Ding\\OwlWebserverTest\\obj\\",
+      "projectPath": "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/OwlWebserverTest.csproj",
+      "packagesPath": "/home/giaco/.nuget/packages/",
+      "outputPath": "/home/giaco/RiderProjects/Owl-Ops/OwlWebserverTest/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vongo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/giaco/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\4AHIF\\pre\\Owl Ops Ding\\Owl-Ops-Webserver\\Owl-Ops-Webserver.csproj": {
-              "projectPath": "D:\\4AHIF\\pre\\Owl Ops Ding\\Owl-Ops-Webserver\\Owl-Ops-Webserver.csproj"
+            "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj": {
+              "projectPath": "/home/giaco/RiderProjects/Owl-Ops/Owl-Ops-Webserver/Owl-Ops-Webserver.csproj"
             }
           }
         }
@@ -9290,11 +9284,14 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.204/RuntimeIdentifierGraph.json"
       }
     }
   }
