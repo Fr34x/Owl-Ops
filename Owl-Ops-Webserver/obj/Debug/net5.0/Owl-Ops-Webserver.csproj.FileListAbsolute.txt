@@ -472,3 +472,4 @@ D:\4AHIF\pre\Owl Ops Ding\Owl-Ops-Webserver\obj\Debug\net5.0\ref\Owl-Ops-Webserv
 D:\4AHIF\pre\Owl Ops Ding\Owl-Ops-Webserver\obj\Debug\net5.0\Owl-Ops-Webserver.pdb
 D:\4AHIF\pre\Owl Ops Ding\Owl-Ops-Webserver\obj\Debug\net5.0\Owl-Ops-Webserver.genruntimeconfig.cache
 D:\4AHIF\pre\Owl Ops Ding\Owl-Ops-Webserver\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+D:\4AHIF\pre\Owl Ops Ding\Owl-Ops-Webserver\obj\Debug\net5.0\Razor\Pages\LiveStream.cshtml.g.cs
