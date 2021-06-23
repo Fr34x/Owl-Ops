@@ -44,7 +44,7 @@ namespace Owl_Ops_Webserver.Controllers
         // PUT: api/Measurement/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutMeasurement(string id, Measurement measurement)
+        public async Task<IActionResult> PutMeasurement(int id, Measurement measurement)
         {
             if (id != measurement.ID)
             {
@@ -78,7 +78,8 @@ namespace Owl_Ops_Webserver.Controllers
         public async Task<ActionResult<Measurement>> PostMeasurement(Measurement measurement)
         {
             Console.WriteLine("new post");
-            _context.Measurements.Add(measurement);
+            // measurement.Sensor = _context.Sensors.FirstOrDefault(s => s.ID == measurement.Sensor_ID);
+            // _context.Measurements.Add(measurement);
             try
             {
                 await _context.SaveChangesAsync();
@@ -114,7 +115,7 @@ namespace Owl_Ops_Webserver.Controllers
             return NoContent();
         }
 
-        private bool MeasurementExists(string id)
+        private bool MeasurementExists(int id)
         {
             return _context.Measurements.Any(e => e.ID == id);
         }

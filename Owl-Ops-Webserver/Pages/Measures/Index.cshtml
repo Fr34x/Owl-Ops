@@ -23,7 +23,7 @@
                 @Html.DisplayNameFor(model => model.Measurement[0].Time)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Measurement[0].Sensor)
+                Sensor ID
             </th>
             <th></th>
         </tr>
@@ -41,7 +41,7 @@
                 @Html.DisplayFor(modelItem => item.Time)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Sensor.ID)
+                @Html.DisplayFor(modelItem => item.Sensor_ID)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |

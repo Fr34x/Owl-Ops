@@ -26,9 +26,9 @@ namespace Owl_Ops_Webserver.Pages.Measures
 
         public async Task OnGetAsync()
         {
-            //User user = _httpContext.User.Identity;
-            Measurement = await _context.Measurements
-                .Include(m => m.Sensor).ToListAsync();
+            //var user = _httpContext.User.Identity;
+            Measurement = await _context.Measurements.ToListAsync();
+            //.Include(m => m.Sensor).ToListAsync();
         }
     }
 }

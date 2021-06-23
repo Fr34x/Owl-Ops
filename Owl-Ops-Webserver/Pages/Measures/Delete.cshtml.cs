@@ -21,9 +21,9 @@ namespace Owl_Ops_Webserver.Pages.Measures
         [BindProperty]
         public Measurement Measurement { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
@@ -38,9 +38,9 @@ namespace Owl_Ops_Webserver.Pages.Measures
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(string id)
+        public async Task<IActionResult> OnPostAsync(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
