@@ -1,0 +1,19 @@
+﻿@page
+@model Owl_Ops_Webserver.Pages.LiveStreamModel
+@{
+    ViewData["Title"] = "Live Stream";
+}
+<img src="~/01OwlSecurityOperations_LOGO.png"style="align-content:center" width="25%" height="25%" />
+<video id="vid" autoplay style="border: thick; "></video>
+<script>
+		navigator.mediaDevices.getUserMedia({
+			video: {
+				width: 960,
+				height: 720,
+				frameRate: 60
+			}
+		})
+		.then(stream => {
+			document.getElementById("vid").srcObject = stream;
+		})
+</script>
