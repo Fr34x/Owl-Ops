@@ -30,7 +30,7 @@ namespace Owl_Ops_Webserver.Pages.Measures
             }
 
             Measurement = await _context.Measurements
-                .Include(m => m.Sensor).FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.ID == id);
 
             if (Measurement == null)
             {

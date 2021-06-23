@@ -27,8 +27,9 @@ namespace Owl_Ops_Webserver.Pages.Measures
                 return NotFound();
             }
 
-            Measurement = await _context.Measurements
-                .Include(m => m.Sensor).FirstOrDefaultAsync(m => m.ID == id);
+            Measurement = await _context.Measurements.FirstOrDefaultAsync(m => m.ID == id);
+
+                //.Include(m => m.Sensor).FirstOrDefaultAsync(m => m.ID == id);
 
             if (Measurement == null)
             {

@@ -79,7 +79,8 @@ namespace Owl_Ops_Webserver.Controllers
         {
             Console.WriteLine("new post");
             // measurement.Sensor = _context.Sensors.FirstOrDefault(s => s.ID == measurement.Sensor_ID);
-            // _context.Measurements.Add(measurement);
+            _context.Measurements.Add(measurement);
+            Console.WriteLine(measurement.Time);
             try
             {
                 await _context.SaveChangesAsync();

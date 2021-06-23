@@ -29,7 +29,8 @@ namespace Owl_Ops_Webserver
             services.AddDbContext<OwlDatabaseContext>();
             services.AddDefaultIdentity<User>().AddEntityFrameworkStores<OwlDatabaseContext>();
             services.AddControllers();
-            services.AddRazorPages();
+            services.AddRazorPages(options => 
+                options.Conventions.AuthorizeFolder("/Measures") );
             services.AddHttpContextAccessor();
         }
 
@@ -52,8 +53,8 @@ namespace Owl_Ops_Webserver
 
             app.UseRouting();
 
-            //app.UseAuthentication();
-            //app.UseAuthorization();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
